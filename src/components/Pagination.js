@@ -7,6 +7,7 @@ const Pagination = ({ nextPage, prevPage, next, prev }) => {
   
   useEffect(() => {
     setLoading(false);
+     
   }, [next, prev]);
 
   const handleNextPageClick = () => {
