@@ -4,5 +4,12 @@
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 100px;
-  /* background-color: #EE99C2;   */
+}
+@media screen and (max-width: 768px) {
+  .mainBox {
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }

@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import PlanetCard from "../PlanetCard";
-import Shimmer from "../Shimmer";
-import Pagination from "../Pagination";
-import Modal from "../Modal"; // Assuming you have a Modal component
+import PlanetCard from "./PlanetCard";
+import Shimmer from "./Shimmer";
+import Pagination from "./Pagination";
+import Modal from "./Modal"; // Assuming you have a Modal component
 import styles from "./MainFrame.module.css";
 const MainFrame = () => {
   const [planetData, setPlanetData] = useState(null);

@@ -1,0 +1,13 @@
+.endpage {
+  max-width: 300px;
+}
+
+.endpagecard {
+  display: flex;
+  justify-content: center;
+}
+.tagline {
+  display: flex;
+  justify-content: center;
+  font-family: dosis;
+}

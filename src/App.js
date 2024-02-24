@@ -1,5 +1,4 @@
-
-import Header from "./Header";
+import Header from "./components/Header";
 import MainFrame from "./components/MainFrame";
 const App = () => {
   return (

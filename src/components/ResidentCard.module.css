@@ -1,0 +1,16 @@
+.Residentcard {
+  padding: 10px;
+  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+   background-color: #CAF7E3;
+  text-decoration: white;
+ color: black;
+}
+.Residentcard:hover{
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjust the shadow size and color */
+  transform: translateY(-5px); /* Add a slight lift effect */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}

@@ -1,0 +1,30 @@
+.planetimg {
+  max-width: 100px;
+  margin: auto;
+}
+.Planet_Card {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #caf7e3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  font-family: dosis;
+  text-align: center;
+  color: black; /* Adding text color */
+}
+.Planet_Card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjust the shadow size and color */
+  transform: translateY(-5px); /* Add a slight lift effect */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transform property to the transition */
+}
+
+@media screen and (max-width: 768px) {
+  .Planet_Card {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+  }
+}

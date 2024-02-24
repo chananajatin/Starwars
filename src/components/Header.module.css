@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #B4AEE8;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1000;
+}
+
+.pic {
+  max-width: 100px;
+  margin: auto;
+}
+
+.logo {
+  width: 120px;
+}
