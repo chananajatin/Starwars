@@ -6,8 +6,8 @@ const ResidentCard = ({ resident }) => {
   return (
     <div className={styles.Residentcard}>
       <h4>NAME : {resident.name.toUpperCase()}</h4>
-      <h4>Height : {resident.height}cm</h4>
-      <h4>Gender: {resident.gender.toUpperCase()}</h4>
+      <h4>HEIGHT : {resident.height}cm</h4>
+      <h4>GENDER: {resident.gender.toUpperCase()}</h4>
     </div>
   );
 };

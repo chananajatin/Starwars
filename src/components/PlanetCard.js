@@ -12,7 +12,7 @@ const PlanetCard = ({ planetdata, onClick }) => {
     <div className={styles.Planet_Card} onClick={handleClick}>
       <img className={styles.planetimg}src={Header_image} alt="Header" />
       <h4>NAME : {name.toUpperCase()}</h4>
-      <h4>Climate : {climate.toUpperCase()}</h4>
+      <h4>CLIMATE : {climate.toUpperCase()}</h4>
       <h4>TERRAIN: {terrain.toUpperCase()}</h4>
     </div>
   );
