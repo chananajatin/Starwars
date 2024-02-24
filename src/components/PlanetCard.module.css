@@ -13,12 +13,12 @@
   transition: box-shadow 0.3s ease;
   font-family: dosis;
   text-align: center;
-  color: black; /* Adding text color */
+  color: black; 
 }
 .Planet_Card:hover {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjust the shadow size and color */
-  transform: translateY(-5px); /* Add a slight lift effect */
-  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Add transform property to the transition */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+  transform: translateY(-5px); 
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
 }
 
 @media screen and (max-width: 768px) {

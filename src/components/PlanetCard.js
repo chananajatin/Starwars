@@ -4,7 +4,7 @@ const PlanetCard = ({ planetdata, onClick }) => {
   const { name, climate, terrain } = planetdata;
 
   const handleClick = () => {
-    // Call the onClick function passed from the parent component
+    
     onClick(planetdata);
   };
 

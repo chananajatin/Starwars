@@ -10,7 +10,7 @@
  color: black;
 }
 .Residentcard:hover{
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjust the shadow size and color */
-  transform: translateY(-5px); /* Add a slight lift effect */
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
+  transform: translateY(-5px); 
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }

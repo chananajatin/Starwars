@@ -4,7 +4,7 @@ import styles from "./Pagination.module.css";
 const Pagination = ({ nextPage, prevPage, next, prev }) => {
   const [loading, setLoading] = useState(false);
 
-  // Set loading to false when next or prev props change
+  
   useEffect(() => {
     setLoading(false);
   }, [next, prev]);
