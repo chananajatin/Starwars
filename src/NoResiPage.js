@@ -4,7 +4,7 @@ const NoResiPage= () => {
   return (
     <>
       <div className="end-page-card">
-        <img className="end-page" src={end_page} />
+        <img className="end-page" src={end_page} alt="end-page"/>
       </div>
 
       <div className="tag-line">

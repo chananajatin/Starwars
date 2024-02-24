@@ -22,7 +22,7 @@ const Modal = ({ onClose, planet }) => {
      console.log(loading);
 
     fetchResidentData();
-  }, [planet.residents]);
+  }, [planet.residents , loading]);
  
  return ReactDOM.createPortal(
    <div className="modal-overlay">

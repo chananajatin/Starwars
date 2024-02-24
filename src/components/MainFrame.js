@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import PlanetCard from "../PlanetCard";
-import { Header_image } from "../constants";
 import Shimmer from "../Shimmer";
 import Pagination from "../Pagination";
 import Modal from "../Modal"; // Assuming you have a Modal component
