@@ -1,6 +1,6 @@
 import { end_page } from "./constants";
 
-const EndPage = () => {
+const NoResiPage= () => {
   return (
     <>
       <div className="end-page-card">
@@ -8,10 +8,10 @@ const EndPage = () => {
       </div>
 
       <div className="tag-line">
-        <h1>NO MORE PLANETS</h1>
+        <h1>NO RESIDENTS</h1>
       </div>
     </>
   );
 };
 
-export default EndPage;
+export default NoResiPage;

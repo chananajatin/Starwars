@@ -1,4 +1,4 @@
-import EndPage from "./EndPage";
+
 import Header from "./Header";
 import MainFrame from "./components/MainFrame";
 const App = () => {
